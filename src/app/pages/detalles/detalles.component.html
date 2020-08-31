@@ -1,0 +1,8 @@
+<div class="form-signin">
+    <img class="mb-4" [src]="detalles[0].largeImageURL" alt="" width="300" height="420">
+    <h4>Tags: {{detalles[0].tags}} </h4>
+    <h4 class="h4 mb-3 font-weight-normal">Views: {{detalles[0].views}}</h4>
+    <h4 class="h4 mb-3 font-weight-normal">Likes: {{detalles[0].likes}}</h4>
+    
+    <button class="btn btn-lg btn-primary btn-block" [routerLink]="['/productos']"  type="submit">Regresar</button>
+</div>
